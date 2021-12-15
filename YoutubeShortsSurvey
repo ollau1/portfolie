@@ -1,0 +1,52 @@
+<main>
+  <header>
+  <section id="welcome-section">
+    <h1>Welcome to my portfolio</h1>
+  </section>
+</header>
+<body>
+    <section id="nav-bar">
+      <nav id="navbar">
+  <ul>
+    <li><a class="nav-link" href="#welcome-section">Top of page</a></li>
+    <li><a class="nav-link" href="#projects">Projects</a></li>
+  </ul>
+    </section>
+  <section id="projects">
+    <h3 class="project-tile" id="project-title">Here are some of the projects i've made</h3>
+    <a href=<a href="https://codepen.io/oliv264c/pen/NWaRNmZ" target="_blank">
+    <img class="image" src="https://media.discordapp.net/attachments/760172221385408555/920644862729125898/unknown.png?width=1200&height=513" alt="survey project">
+  </section>
+      <section>
+        <p><a id="profile-link" href="https://github.com/ollau1" target="_blank">my github</p>
+      </section>
+</body>
+</main>
+<syle>
+@media{
+  .image{
+  width: 400px;
+  height: 250px;
+}
+  h1{
+    height: 326px;
+  }
+}
+#navbar{
+    margin-top: -360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    position: fixed;
+}
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+</style>
